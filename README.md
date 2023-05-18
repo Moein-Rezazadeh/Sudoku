@@ -58,6 +58,8 @@ Here, the number 5000 milliseconds is recorded, which represents 5 seconds. So, 
 
 In Android, a ValueAnimator should be used to create a timer and momentarily use the current value.
 
+
+
 ```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +94,15 @@ In Android, a ValueAnimator should be used to create a timer and momentarily use
 ```
 #### onCreate method
 This is the main method of the program and whenever the application and the main page are created, this method is called.
+
+For the Load File button, we created an OnClickListener that calls the LoadFileFromStorage method whenever it is clicked and reads the sudoku file from the main memory.
+
+For the Step Step button, we created an OnClickListener that, by clicking on it, the StartTimer method is called, which starts the timer and displays the answer individually.
+
+For the Clear Table button, we also created an OnClickListener that, when clicked, will call the ClearTable method to reset the table.
+
+For the Solve Fully button, we also created an OnClickListener that, when clicked, Solve the whole table at once without time.
+
 
 # Features
 * Solves a puzzle relatively quickly given valid numbers
