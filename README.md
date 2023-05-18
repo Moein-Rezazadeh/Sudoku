@@ -47,7 +47,7 @@ Here, code 3 is specified
 
 
 While building the main page of the app, I used a `ProgressBar` to display the timer.
-In this file, we get it from the page and place it in the ProgressBar field so that it can be used throughout the code.
+In this file, we get it from the page and place it in the `ProgressBar field` so that it can be used throughout the code.
 
 #### TIMER_ DURATION
 
@@ -56,7 +56,7 @@ Here, the number 5000 milliseconds is recorded, which represents 5 seconds. So, 
 
 #### Animator
 
-In Android, a ValueAnimator should be used to create a timer and momentarily use the current value.
+In Android, a `ValueAnimator` should be used to create a timer and momentarily use the current value.
 
 
 
@@ -95,13 +95,13 @@ In Android, a ValueAnimator should be used to create a timer and momentarily use
 #### onCreate method
 This is the main method of the program and whenever the application and the main page are created, this method is called.
 
-For the Load File button, we created an OnClickListener that calls the LoadFileFromStorage method whenever it is clicked and reads the sudoku file from the main memory.
+For the Load File button, we created an `OnClickListener` that calls the `LoadFileFromStorage` method whenever it is clicked and reads the sudoku file from the main memory.
 
-For the Step Step button, we created an OnClickListener that, by clicking on it, the StartTimer method is called, which starts the timer and displays the answer individually.
+For the Step Step button, we created an `OnClickListener` that, by clicking on it, the `StartTimer` method is called, which starts the timer and displays the answer individually.
 
-For the Clear Table button, we also created an OnClickListener that, when clicked, will call the ClearTable method to reset the table.
+For the Clear Table button, we also created an `OnClickListener` that, when clicked, will call the `ClearTable` method to reset the table.
 
-For the Solve Fully button, we also created an OnClickListener that, when clicked, Solve the whole table at once without time.
+For the Solve Fully button, we also created an `OnClickListener` that, when clicked, Solve the whole table at once without time.
 
 
 # Features
