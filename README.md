@@ -4,10 +4,10 @@ It uses a brute force algorithm to test values in each column and continually go
 To solve sudoku, I used a timer that solves a house of sudoku after each completion and continues until all the houses are filled.
 
 ## Screenshots
-https://i.imgur.com/o2Zw8Y8
+
 Empty grid  |  Entering values
 :-------------------------:|:-------------------------:
-![Empty grid] https://freeimage.host/i/HgqkG3v  |  ![Entering values](http://i.imgur.com/Lrxub2v.jpg)
+![Empty grid](https://iili.io/HgqkG3v.jpg)  |  ![Entering values](http://i.imgur.com/Lrxub2v.jpg)
 
 Solved puzzle |  Errors when entering duplicates
 :-------------------------:|:-------------------------:
