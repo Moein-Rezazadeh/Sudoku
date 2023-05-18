@@ -112,10 +112,3 @@ For the Solve Fully button, we also created an `OnClickListener` that, when clic
 * A timer that solves a house of sudoku after each completion and continues until all the houses are filled.
 * The board can be saved and reloaded from a database
 
-## Planned updates
-* Ability to solve the puzzle one number at a time, so as to not spoil the solution
-* Be able to customize the theming and colors for the app to the user's liking
-* Read in a puzzle from the camera by taking a picture and parsing the board
-* Support board sizes other then just 9x9 boards
-* Add a hints page to help users learn better strategies for solving puzzles
-* Add a contact form in the app to submit any feature requests or bugs
