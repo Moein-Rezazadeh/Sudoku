@@ -109,6 +109,7 @@ For the Solve Fully button, we also created an `OnClickListener` that, when clic
   * Only allows the user to enter in numbers, so there is no way to accidentally enter in a wrong character 
 * If invalid numbers are entered into the puzzle, it will notify you right away with a red background
 * Can clear the board to reset what is there
+* A timer that solves a house of sudoku after each completion and continues until all the houses are filled.
 * The board can be saved and reloaded from a database
 
 ## Planned updates
