@@ -46,7 +46,7 @@ Here, code 3 is specified
 #### Progress Bar
 
 
-While building the main page of the app, I used a ProgressBar to display the timer.
+While building the main page of the app, I used a 'ProgressBar' to display the timer.
 In this file, we get it from the page and place it in the ProgressBar field so that it can be used throughout the code.
 
 #### TIMER_ DURATION
