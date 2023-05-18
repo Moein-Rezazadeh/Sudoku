@@ -4,7 +4,7 @@ It uses a brute force algorithm to test values in each column and continually go
 To solve sudoku, I used a timer that solves a house of sudoku after each completion and continues until all the houses are filled.
 
 ## Screenshots
-https://imgur.com/o2Zw8Y8
+https://i.imgur.com/o2Zw8Y8
 Empty grid  |  Entering values
 :-------------------------:|:-------------------------:
 ![Empty grid](http://i.imgur.com/f238o7d.jpg)  |  ![Entering values](http://i.imgur.com/Lrxub2v.jpg)
