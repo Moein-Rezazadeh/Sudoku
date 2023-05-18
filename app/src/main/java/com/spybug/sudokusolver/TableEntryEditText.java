@@ -12,7 +12,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TableRow;
 
-public class TableEntryEditText extends EditText {
+public class TableEntryEditText extends androidx.appcompat.widget.AppCompatEditText {
 
     private boolean invalidEntry;
     private static final int[] STATE_INVALID_ENTRY = {R.attr.state_invalid_entry};

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,73 +7,88 @@
     tools:context="com.spybug.sudokusolver.PuzzleSolver">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:focusableInTouchMode="true">
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
 
         <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/board_table"
-            android:padding="1dp"
-            android:background="@drawable/table_layout_border">
-        </TableLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp">
-
-            <Button
-                android:text="@string/full_solve_label"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/fully_solve_button"
-                android:layout_weight="1"
-                android:layout_marginRight="16dp"
-                android:layout_marginEnd="16dp"/>
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/single_solve_label"
-                android:id="@+id/single_solve_button"
-                android:layout_weight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"/>
-
-        </LinearLayout>
+            android:background="@drawable/table_layout_border"
+            android:padding="1dp" />
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="12dp">
+            android:orientation="vertical">
 
-            <Button
-                android:layout_width="0dp"
+            <ProgressBar
+                android:id="@+id/timer"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/clear_puzzle_label"
-                android:id="@+id/clear_puzzle_button"
-                android:layout_weight="1"
-                android:layout_marginRight="16dp"
-                android:layout_marginEnd="16dp"/>
+                android:layout_marginTop="16dp"
+                android:max="1000" />
 
-            <Button
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/save_puzzle_label"
-                android:id="@+id/save_puzzle_button"
-                android:layout_weight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"/>
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
 
+                <Button
+                    android:id="@+id/load_table"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Load file" />
+
+                <Button
+                    android:id="@+id/clear_puzzle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="clear" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <Button
+                    android:id="@+id/single_solve_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Step-Step" />
+
+
+                <Button
+                    android:id="@+id/fully_solve_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Solve Fully" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Designed by Moein Rezazadeh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
 
     </LinearLayout>
