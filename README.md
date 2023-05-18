@@ -7,7 +7,7 @@ To solve sudoku, I used a timer that solves a house of sudoku after each complet
 https://i.imgur.com/o2Zw8Y8
 Empty grid  |  Entering values
 :-------------------------:|:-------------------------:
-![Empty grid](http://i.imgur.com/f238o7d.jpg)  |  ![Entering values](http://i.imgur.com/Lrxub2v.jpg)
+![Empty grid](https://freeimage.host/i/HgqkG3v)  |  ![Entering values](http://i.imgur.com/Lrxub2v.jpg)
 
 Solved puzzle |  Errors when entering duplicates
 :-------------------------:|:-------------------------:
