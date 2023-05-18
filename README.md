@@ -1,6 +1,7 @@
 # Overview
 Sudoku Solver is an app for Android built in Android Studio. This is a personal project made by myself to solve any given sudoku puzzle. 
 It uses a brute force algorithm to test values in each column and continually go down row by row until the puzzle is filled with correct values.
+To solve sudoku, I used a timer that solves a house of sudoku after each completion and continues until all the houses are filled.
 
 ## Screenshots
 
