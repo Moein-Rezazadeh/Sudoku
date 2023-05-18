@@ -7,11 +7,11 @@ To solve sudoku, I used a timer that solves a house of sudoku after each complet
 
 Empty grid  |  Entering values
 :-------------------------:|:-------------------------:
-![Empty grid](https://iili.io/HgqkG3v.jpg)  |  ![Entering values](http://i.imgur.com/Lrxub2v.jpg)
+![Empty grid](https://iili.io/HgqkG3v.jpg)  |  ![Entering values](https://iili.io/HgqPquf.jpg)
 
 Solved puzzle |  Errors when entering duplicates
 :-------------------------:|:-------------------------:
-![Solved puzzle](http://i.imgur.com/SvRW8SF.jpg)  |  ![Errors when entering duplicates](http://i.imgur.com/R2Z0yrc.jpg)
+![Solved puzzle](https://iili.io/HgqU8W7.jpg)  |  ![Errors when entering duplicates](https://iili.io/HgqP7uj.jpg)
 
 
 # Features
