@@ -54,7 +54,7 @@ In this file, we get it from the page and place it in the `ProgressBar field` so
 Determines the duration of the timer to display the next answer in milliseconds.
 Here, the number 5000 milliseconds is recorded, which represents 5 seconds. So, after every five seconds, the empty box fill with right answer.
 
-#### Animator
+#### ValueAnimator
 
 In Android, a `ValueAnimator` should be used to create a timer and momentarily use the current value.
 
